@@ -16,7 +16,7 @@ const routes: Routes = [
   {path: 'coupens', component: CoupensComponent},
   {path: 'pages', component: PagesComponent},
   {path: 'media', component: MediaComponent},
-  {path: 'settings', component: SettingsComponent}
+  {path: 'setting', component: SettingsComponent}
 ];
 
 @NgModule({

@@ -2,36 +2,36 @@ export const navbarData = [
     {
         routeLink: 'dashboard',
         icon: 'fal fa-home',
-        label: 'Dashboard'
+        label: 'Customers'
     },
     {
         routeLink: 'products',
-        icon: 'fal fa-box-open',
-        label: 'Products'
+        icon: 'fal fa-chart-bar',
+        label: 'Cutomer Data'
     },
     {
         routeLink: 'statistics',
-        icon: 'fal fa-chart-bar',
-        label: 'Statistics'
+        icon: 'fal fa-box-open',
+        label: 'Money Sign'
     },
-    {
-        routeLink: 'coupens',
-        icon: 'fal fa-tags',
-        label: 'Coupens'
-    },
-    {
-        routeLink: 'pages',
-        icon: 'fal fa-file',
-        label: 'Pages'
-    },
-    {
-        routeLink: 'media',
-        icon: 'fal fa-camera',
-        label: 'Media'
-    },
-    {
-        routeLink: 'settings',
-        icon: 'fal fa-cog',
-        label: 'Settings'
-    },
+    // {
+    //     routeLink: 'coupens',
+    //     icon: 'fal fa-tags',
+    //     label: 'Money Sign'
+    // },
+    // {
+    //     routeLink: 'pages',
+    //     icon: 'fal fa-file',
+    //     label: 'Money Sign'
+    // },
+    // {
+    //     routeLink: 'media',
+    //     icon: 'fal fa-camera',
+    //     label: 'Money Sign'
+    // },
+    // {
+    //     routeLink: 'settings',
+    //     icon: 'fal fa-cog',
+    //     label: 'Settings'
+    // },
 ];
