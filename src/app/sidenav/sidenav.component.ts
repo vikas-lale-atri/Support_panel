@@ -1,6 +1,7 @@
 import { animate, keyframes, style, transition, trigger } from '@angular/animations';
 import { Component, Output, EventEmitter, OnInit, HostListener } from '@angular/core';
 import { navbarData } from './nav-data';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 interface SideNavToggle {
   screenWidth: number;
@@ -39,11 +40,22 @@ interface SideNavToggle {
   ]
 })
 export class SidenavComponent implements OnInit {
+ 
+  
 
   @Output() onToggleSideNav: EventEmitter<SideNavToggle> = new EventEmitter();
   collapsed = false;
   screenWidth = 0;
+  // coffee: any = faCoffee;
+  faCoffee = faCoffee;
   navData = navbarData;
+  
+ 
+  
+  
+ 
+  
+  
 
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {

@@ -13,6 +13,10 @@ import { CoupensComponent } from './coupens/coupens.component';
 import { PagesComponent } from './pages/pages.component';
 import { MediaComponent } from './media/media.component';
 import { SettingsComponent } from './settings/settings.component';
+import { CustomerComponent } from './customer/customer.component';
+import { MoneysignComponent } from './moneysign/moneysign.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PersonalPageComponent } from './personal-page/personal-page.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +29,17 @@ import { SettingsComponent } from './settings/settings.component';
     CoupensComponent,
     PagesComponent,
     MediaComponent,
-    SettingsComponent
+    SettingsComponent,
+    CustomerComponent,
+    MoneysignComponent,
+    PersonalPageComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
